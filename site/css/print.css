@@ -1,0 +1,8 @@
+/* Additional print-only tweaks for cheat sheets (media="print") */
+@media print {
+  .cheat-page { max-width: 100%; padding: 0.5in 0.75in; }
+  .cheat-page h1 { font-size: 18pt; border-bottom: 2px solid #000; padding-bottom: 0.25in; }
+  .cheat-page h2 { font-size: 13pt; }
+  .cheat-page .step, .cheat-page .warning, .cheat-page .example, .cheat-page .tip { break-inside: avoid; }
+  .no-print { display: none !important; }
+}
